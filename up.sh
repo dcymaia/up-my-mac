@@ -6,6 +6,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 brew update
 brew tap caskroom/cask
 
+brew install python3
+alias python=/usr/local/bin/python3
+
 brew install bash-completion
 
 brew cask install google-chrome
@@ -25,6 +28,6 @@ git clone https://github.com/dracula/terminal-app.git
 
 git config --global user.name "Danilo Maia"
 git config --global user.email "dcymaia@gmail.com"
-git config --global --list
+#git config --global --list
 
 echo "🍺 all done!"
