@@ -13,6 +13,7 @@ brew install yarn
 
 sudo easy_install pip
 pip install github
+pip install PyGitHub
 
 brew install bash-completion
 
@@ -25,6 +26,8 @@ brew cask install visual-studio-code
 brew cask install mysqlworkbench	
 brew cask install docker
 brew cask install postman
+
+brew cask install spotify
 
 brew cleanup
 
