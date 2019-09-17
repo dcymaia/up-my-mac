@@ -25,6 +25,7 @@ brew cask install visual-studio-code
 brew cask install mysqlworkbench	
 brew cask install docker
 brew cask install postman
+brew cask install sourcetree
 
 brew cask install spotify
 
