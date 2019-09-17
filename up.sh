@@ -12,9 +12,8 @@ alias python=/usr/local/bin/python3
 brew install yarn
 
 sudo easy_install pip
-pip install github
-pip install PyGitHub
 
+brew install ansible
 brew install bash-completion
 
 brew cask install google-chrome
