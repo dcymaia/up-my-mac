@@ -22,6 +22,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 brew update
 brew tap caskroom/cask
+brew services
 
 brew install python3
 alias python=/usr/local/bin/python3
@@ -46,6 +47,8 @@ brew cask install sourcetree
 brew cask install pycharm
 
 brew cask install spotify
+
+brew install mysql
 
 brew install pyenv
 brew install pyenv-virtualenv
