@@ -56,7 +56,13 @@ pyenv install 3.6.0
 
 printf "\n${PURPLE}==>${NC} Set .bashrc\n"
 touch ~/.bashrc
+
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+echo 'export PYENV_VIRTUALENV_DISABLE_PROMPT=1' >> ~/.bashrc
+echo 'export LC_ALL=en_US.UTF-8 ' >> ~/.bashrc
+echo 'export LANG=en_US.UTF-8' >> ~/.bashrc
+
 source ~/.bashrc
 printf "\n${GREEN}==>${NC} Finished set .bashrc\n"
 
