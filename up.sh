@@ -54,6 +54,7 @@ pyenv install 3.6.0
 printf "\n${PURPLE}==>${NC} Set .bashrc\n"
 touch ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+source ~/.bashrc
 printf "\n${GREEN}==>${NC} Finished set .bashrc\n"
 
 brew cleanup
