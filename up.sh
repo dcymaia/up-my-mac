@@ -50,6 +50,10 @@ brew cask install spotify
 
 brew install mysql
 
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+
 brew install pyenv
 brew install pyenv-virtualenv
 pyenv install 3.6.0
